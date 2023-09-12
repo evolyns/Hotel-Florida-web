@@ -57,3 +57,13 @@ border-radius: 5px;
      transform: translate(0px, 0px);
       visibility: visible;
   }
+
+
+   /* Explore  */
+
+
+
+   #Targetainversa {
+    flex-direction: row-reverse;
+   }
+   
