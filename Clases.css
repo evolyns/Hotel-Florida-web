@@ -63,7 +63,6 @@ border-radius: 5px;
 
 
 
-   #Targetainversa {
+   .targetainversa {
     flex-direction: row-reverse;
    }
-   
