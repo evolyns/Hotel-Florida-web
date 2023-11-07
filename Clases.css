@@ -1,5 +1,8 @@
+.body{
+  background-image: url(./Rooms/muro-hormigon-blanco.jpg);
+}
 .header {
-    background: url() no-repeat center;
+    background:  no-repeat center;
     background-size: cover;
     min-height: 25vh;
   }
