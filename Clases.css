@@ -1,5 +1,11 @@
 .body{
-  background-image: url(./Rooms/muro-hormigon-blanco.jpg);
+  background-color: black;
+
+}
+
+.div-imagen-fondo {
+  background-image: url(/Rooms/muro-hormigon-blanco.jpg);
+
 }
 .header {
     background:  no-repeat center;
