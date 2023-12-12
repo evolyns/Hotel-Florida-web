@@ -10,11 +10,33 @@
     background-size: cover;
     min-height: 25vh;
   }
+
+
+  /* NAV BAR */
+
   .header .navbar {
     /* background-color: transparent !important; */
     font-family: 'TeamWork';
+    background-image: linear-gradient(to bottom, black, transparent);
+
+  }
+  .header .navbar .active {
+    color: aliceblue;
+  }
+  .header .navbar .inactive {
+    color: white;
+  }
+
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.116);
+  }
+
+  .navbar {
+    transition: all 0.5s;
     
   }
+
 
   .parallax {
     /* The image used */
