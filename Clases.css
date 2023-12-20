@@ -1,120 +1,117 @@
-.body{
+.body {
 }
 
 .div-imagen-fondo {
   background-image: url(/Rooms/muro-hormigon-blanco.jpg);
-
 }
 .header {
-    background:  no-repeat center;
-    background-size: cover;
-    min-height: 25vh;
-  }
+  background: no-repeat center;
+  background-size: cover;
+  min-height: 25vh;
+}
 
+/* NAV BAR */
 
-  /* NAV BAR */
+.header .navbar {
+  font-family: "TeamWork";
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent);
+}
 
+/* Media queri para que el nav tenga height 15% en resolucion grnade*/
+
+@media only screen and (min-width: 991px) {
   .header .navbar {
-    /* background-color: transparent !important; */
-    font-family: 'TeamWork';
-    background-image: linear-gradient(to bottom, black, transparent);
-
-  }
-  .header .navbar .active {
-    color: aliceblue;
-  }
-  .header .navbar .inactive {
-    color: white;
+    height: 15%;
   }
 
-  .navbar-scrolled {
-    background-color: rgba(0, 0, 0, 0.527);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.116);
-  }
+  .divider-vertical-second-menu{ 
+    height: 20px; 
+    width: 1px; 
+    margin: 0 5px; 
+    overflow: hidden; 
+    background-color: #616161; 
+    border-right: 2px solid #7c7c7c; }
+}
 
-  .navbar {
-    transition: all 0.5s;
-  }
-  /* Alineacion del menu hamburguesa */
-.navbar-nav{
+
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.89);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.116);
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+/* Alineacion del menu hamburguesa */
+.navbar-nav {
   flex-direction: column;
   align-items: center;
 }
 
-  .parallax {
-    /* The image used */
-    /* background-image: url("https://picsum.photos/359/240?random"); */
-  
-    /* Set a specific height */
-    min-height:  500px;
+.parallax {
+  /* The image used */
+  /* background-image: url("https://picsum.photos/359/240?random"); */
 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* Set a specific height */
+  min-height: 500px;
 
-
-  /* ROOMS  */
-  .fuentePrecios{
-    /* font-style: unset; */
-    font-family: 'TeamWork';
-  }
-
-.h1{
-  font-family: 'TeamWork';
-}
-.h2{
-  font-family: 'TeamWork';
-}
-.p{
-  font-family: 'TeamWork';
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-  /* INDEX  */
+/* ROOMS  */
+.fuentePrecios {
+  /* font-style: unset; */
+  font-family: "TeamWork";
+}
+
+.h1 {
+  font-family: "TeamWork";
+}
+.h2 {
+  font-family: "TeamWork";
+}
+.p {
+  font-family: "TeamWork";
+}
+
+/* INDEX  */
 /* el fondo del contenedor del titulo index  */
-.fondo-contenedor-index{
-width: 100%;
-  background-color: #40cfff
-  ;
-border-radius: 5px;
-padding: 0;
+.fondo-contenedor-index {
+  width: 100%;
+  background-color: #40cfff;
+  border-radius: 5px;
+  padding: 0;
 }
 
 /* esta clase es para los guiones entre textos o imagenes  */
-  .guion{
-    border: 1px rgb(0, 0, 0) solid
-    
-  }
-.img-celeste{
+.guion {
+  border: 1px rgb(0, 0, 0) solid;
+}
+.img-celeste {
   background-image: url(./Rooms/muro-hormigon-celeste.png);
 }
-.img-oscura{
+.img-oscura {
   background-image: url(./Rooms/muro-hormigon-negro.png);
-
 }
 
-  .imagenIndex{
-    
-  }
+.imagenIndex {
+}
 
+/* Explore  */
 
-   /* Explore  */
+.targetainversa {
+  flex-direction: row-reverse;
+}
 
-
-
-   .targetainversa {
-    flex-direction: row-reverse;
-   }
-
-   @font-face {
-    font-family: 'TeamWork';
-    src:url('TeamWork.ttf.woff') format('woff'),
-        url('TeamWork.ttf.svg#TeamWork') format('svg'),
-        url('TeamWork.ttf.eot'),
-        url('TeamWork.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+  font-family: "TeamWork";
+  src: url("TeamWork.ttf.woff") format("woff"),
+    url("TeamWork.ttf.svg#TeamWork") format("svg"), url("TeamWork.ttf.eot"),
+    url("TeamWork.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
