@@ -1,5 +1,4 @@
-.body {
-}
+
 
 .div-imagen-fondo {
   background-image: url(/Rooms/muro-hormigon-blanco.jpg);
@@ -27,7 +26,7 @@
   .divider-vertical-second-menu{ 
     height: 20px; 
     width: 1px; 
-    margin: 0 5px; 
+    margin: 0 15px; 
     overflow: hidden; 
     background-color: #616161; 
     border-right: 2px solid #7c7c7c; }
@@ -82,7 +81,6 @@
 /* el fondo del contenedor del titulo index  */
 .fondo-contenedor-index {
   width: 100%;
-  background-color: #40cfff;
   border-radius: 5px;
   padding: 0;
 }
@@ -105,6 +103,12 @@
 
 .targetainversa {
   flex-direction: row-reverse;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+  padding: 5%;
 }
 
 @font-face {
