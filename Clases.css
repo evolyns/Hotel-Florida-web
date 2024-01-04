@@ -1,25 +1,36 @@
-
-
-
 .div-imagen-fondo {
   background-image: url(/Rooms/muro-hormigon-blanco.jpg);
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.9px;
-  
+
 }
+
 .header {
   background: no-repeat center;
   background-size: cover;
   min-height: 25vh;
-  
+
 }
 
 /* NAV BAR */
 
 .header .navbar {
   font-family: 'Oswald', sans-serif;
-  
-  /*background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent);*/
+
+}
+
+
+.navbar-toggler{
+  position: relative;
+  right: 8px;
+}
+
+.navbar-toggler-icon{
+  background-image: url(/img/LogoHotel.jpeg);
+  height: 160px;
+  width: 150px;
+  zoom: 60%;
+
 }
 
 /* Media queri para que el nav tenga height 15% en resolucion grnade*/
@@ -28,21 +39,38 @@
   .header .navbar {
     height: 15%;
   }
-  
-  
-  .carousel-inner{
-    /* height: 980px;*/
+
+
+  .navbar-brand{
+    background-image: url(/img/LogoHotel.jpeg);
+    height: 160px;
+    width: 150px;
+    zoom: 60%;
+    position: relative;
+    margin: 30px;
+    
   }
-  
-  
-  .divider-vertical-second-menu{ 
-    height: 20px; 
-    width: 1px; 
-    margin: 0 15px; 
-    overflow: hidden; 
-    background-color: #616161; 
-    border-right: 2px solid #7c7c7c; }
+
+  .divider-vertical-second-menu {
+    height: 20px;
+    width: 1px;
+    margin: 0 15px;
+    overflow: hidden;
+    background-color: #616161;
+    border-right: 2px solid #7c7c7c;
   }
+}
+
+@media only screen and (max-width: 991px) {
+  .header .navbar {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.589), transparent);
+  }
+
+  
+
+
+}
+
 
 
 .navbar-scrolled {
@@ -53,6 +81,7 @@
 .navbar {
   transition: all 0.5s;
 }
+
 /* Alineacion del menu hamburguesa */
 .navbar-nav {
   flex-direction: column;
@@ -65,13 +94,13 @@
 
   /* Set a specific height */
   /* min-height: 500px;*/
-  
+
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 .carousel-inner {
@@ -80,12 +109,12 @@
 
 
 .gradient-overlay {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),  transparent);
-   z-index: 1;
-   width: 100%;
-   height: 100%;
-   position: absolute;
-  }
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), transparent);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 
 /* ROOMS  */
 .fuentePrecios {
@@ -96,20 +125,24 @@
 .h1 {
   font-family: "TeamWork";
 }
+
 .h2 {
   font-family: "TeamWork";
 }
+
 .fuentePrecios {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   letter-spacing: 0.6px;
   color: #3b3b3b;
 }
+
 .card-title {
   color: rgb(42, 187, 255);
   font-size: x-large;
-  font-weight:400;
+  font-weight: 400;
 }
+
 .card-text {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -129,15 +162,16 @@
 .guion {
   border: 1px rgb(0, 0, 0) solid;
 }
+
 .img-celeste {
   background-image: url(./Rooms/muro-hormigon-celeste.png);
 }
+
 .img-oscura {
   background-image: url(./Rooms/muro-hormigon-negro.png);
 }
 
-.imagenIndex {
-}
+.imagenIndex {}
 
 /* Explore  */
 
