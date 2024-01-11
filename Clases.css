@@ -30,6 +30,8 @@
   height: 160px;
   width: 150px;
   zoom: 60%;
+  border-radius: 15%;
+
 
 }
 
@@ -43,6 +45,7 @@
 
   .navbar-brand{
     background-image: url(/img/LogoHotel.jpeg);
+    border-radius: 15%;
     height: 160px;
     width: 150px;
     zoom: 60%;
@@ -59,18 +62,46 @@
     background-color: #616161;
     border-right: 2px solid #7c7c7c;
   }
+
+   .texto-absoluto {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+   }
+   .texto-absoluto h5 {
+    font-size: 600%;
+    color: whitesmoke;
+   }
+
+
 }
+
+
+
 
 @media only screen and (max-width: 991px) {
   .header .navbar {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.589), transparent);
   }
 
-  
+  .texto-absoluto {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+   }
+   .texto-absoluto h5 {
+    font-size: 400%;
+    color: whitesmoke;
+   }
+
+   
 
 
 }
-
 
 
 .navbar-scrolled {
@@ -100,8 +131,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  position: relative;
 }
+
 
 .carousel-inner {
   z-index: 0;
