@@ -39,16 +39,16 @@
 
 @media only screen and (min-width: 991px) {
   .header .navbar {
-    height: 15%;
+    height: 110px;
   }
 
 
   .navbar-brand{
     background-image: url(/img/LogoHotel.jpeg);
     border-radius: 15%;
-    height: 160px;
-    width: 150px;
-    zoom: 60%;
+    height: 175px;
+    width: 175px;
+    zoom: 50%;
     position: relative;
     margin: 30px;
     
@@ -68,7 +68,8 @@
     z-index: 1;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    
    }
    .texto-absoluto h5 {
     font-size: 600%;
@@ -98,8 +99,7 @@
     color: whitesmoke;
    }
 
-   
-
+  
 
 }
 
@@ -107,6 +107,10 @@
 .navbar-scrolled {
   background-color: rgba(0, 0, 0, 0.89);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.116);
+}
+
+.nav-link {
+  font-size: large;
 }
 
 .navbar {
@@ -152,6 +156,7 @@
 .fuentePrecios {
   /* font-style: unset; */
   font-family: "TeamWork";
+  font-size: x-large;
 }
 
 .h1 {
@@ -171,15 +176,17 @@
 
 .card-title {
   color: rgb(42, 187, 255);
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 400;
 }
 
 .card-text {
-  font-family: 'Oswald', sans-serif;
+  font-family:  'Oswald', sans-serif;
   font-weight: 300;
   letter-spacing: 0.6px;
+  line-height: 35px;
   color: #3b3b3b;
+  font-size: x-large;
 }
 
 /* INDEX  */
