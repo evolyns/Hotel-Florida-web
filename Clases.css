@@ -104,6 +104,16 @@
 }
 
 
+
+@media only screen and (max-width: 609px) {
+.texto-absoluto h5{
+color: #000;
+font-size: 0%;
+}
+}
+
+
+
 .navbar-scrolled {
   background-color: rgba(0, 0, 0, 0.89);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.116);
