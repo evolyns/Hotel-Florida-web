@@ -21,12 +21,12 @@
 }
 
 
-.navbar-toggler{
+.navbar-toggler {
   position: relative;
   right: 8px;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   background-image: url(/img/LogoHotel.jpeg);
   height: 160px;
   width: 150px;
@@ -44,7 +44,7 @@
   }
 
 
-  .navbar-brand{
+  .navbar-brand {
     background-image: url(/img/LogoHotel.jpeg);
     border-radius: 15%;
     height: 175px;
@@ -52,7 +52,7 @@
     zoom: 50%;
     position: relative;
     margin: 30px;
-    
+
   }
 
   .divider-vertical-second-menu {
@@ -64,7 +64,7 @@
     border-right: 2px solid #7c7c7c;
   }
 
-   .texto-absoluto {
+  .texto-absoluto {
     text-align: center;
     position: absolute;
     z-index: 1;
@@ -73,11 +73,12 @@
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
-   }
-   .texto-absoluto h5 {
+  }
+
+  .texto-absoluto h5 {
     font-size: 600%;
     color: whitesmoke;
-   }
+  }
 
 
 }
@@ -98,19 +99,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-    
-   }
-   .texto-absoluto h5 {
+  }
+
+  .texto-absoluto h5 {
     font-size: 400%;
     color: whitesmoke;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
-   }
+  }
 
-   .header .navbar {
+  .header .navbar {
     font-family: 'Oswald', sans-serif;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
-  
+
   }
 
 }
@@ -118,10 +119,10 @@
 
 
 @media only screen and (max-width: 609px) {
-.texto-absoluto h5{
-color: #000;
-font-size: 0%;
-}
+  .texto-absoluto h5 {
+    color: #000;
+    font-size: 0%;
+  }
 }
 
 
@@ -207,7 +208,7 @@ font-size: 0%;
 }
 
 .card-text {
-  font-family:  'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 300;
   letter-spacing: 0.6px;
   line-height: 35px;
@@ -255,8 +256,26 @@ font-size: 0%;
 }
 
 
+/*     Restaurant        */
+
+#galeria img {
+  width: 100%;
+  height: 300px;
+  transform: scale3d(1,1,1);
+		transition: transform 1s ease-in-out;
+}
+
+#galeria img:hover {
+  transform: scale3d(1.1,1.1,1);
+  transition: transform 500ms ease-in-out;
+
+}
 
 
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
 
 
 
