@@ -1,5 +1,5 @@
 .div-imagen-fondo {
-  background-image: url(/Rooms/muro-hormigon-blanco.jpg);
+  background-image: url(Rooms/muro-hormigon-blanco.jpg);
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.9px;
 
@@ -27,7 +27,7 @@
 }
 
 .navbar-toggler-icon {
-  background-image: url(/img/LogoHotel.jpeg);
+  background-image: url(img/LogoHotel.jpeg);
   height: 160px;
   width: 150px;
   zoom: 60%;
@@ -45,7 +45,7 @@
 
 
   .navbar-brand {
-    background-image: url(/img/LogoHotel.jpeg);
+    background-image: url(img/LogoHotel.jpeg);
     border-radius: 15%;
     height: 175px;
     width: 175px;
