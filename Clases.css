@@ -303,3 +303,34 @@
   font-style: normal;
 }
 */
+
+
+/*     Form        */
+
+
+#aa-contact {
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+}
+
+.form-control{
+  background-color: rgba(255, 255, 255, 0.767);
+
+  
+}
+
+#register_form .row{
+margin: 30px;
+}
+
+#register_form .row label{
+  text-decoration:underline;
+  }
+
+  #register_form ::placeholder{
+    opacity: 50%;
+    }
+
+    #register_form select{
+      color: rgba(0, 0, 0, 0.486);
+  }
