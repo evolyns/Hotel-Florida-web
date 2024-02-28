@@ -12,7 +12,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
     <link rel="stylesheet" href="Clases.css" .css />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -84,7 +84,8 @@
                 <div class="container fondo-contenedor-index">
                     <div class="row">
                         <div class="col text-center">
-                            <h1 class="pt-5 pb-3" data-aos="fade-down" data-aos-duration="1000">GET IN TOUCH WITH US</h1>
+                            <h1 class="pt-5 pb-3" data-aos="fade-down" data-aos-duration="1000">GET IN TOUCH WITH US
+                            </h1>
                             <h2 class="guion" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300"></h2>
                             <p class="pt-3 pb-5 pe-5 ps-5 fuentePrecios" data-aos="fade-down" data-aos-duration="1000"
                                 data-aos-delay="300">
@@ -146,212 +147,233 @@
                 </div>
 
             </nav>
+        </header>
 
-            <!-- Form -->
+        <!-- Form -->
 
-            <div class="pb-50 pt-50" id="aa-contact">
-                <div class="targetaobscura">
+        <div class="pb-50 pt-50" id="aa-contact">
+            <div class="targetaobscura">
                 <div class="container">
 
-                        <div class="row">
-                            <div class="col-md-8 col-sm-8">
-                                
-                                <div class="step">
-    
-                                    <div id="message-contact"></div>
-    
-                                    <form name="frm" method="post" id="register_form">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Name</label>
-                                                    <input type="text" class="form-control" placeholder="Enter Name"
-                                                        name='username' value="" required maxlength="30">
-                                                    <span class="val_name"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Phone</label>
-                                                    <input type="text" class="form-control" placeholder="Enter Phone number"
-                                                        name="userphone" value="" required maxlength="14">
-                                                    <span class="val_phone"></span>
-                                                </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8">
+
+                            <div class="step">
+
+
+                                <form name="frm" method="post" id="register_form">
+                                    <div class="row">
+                                        <div style="margin-bottom: 10px;" id="message-contact">
+                                            <h2>Contact</h2>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label>Name</label>
+                                                <input type="text" class="form-control" placeholder="Enter Name"
+                                                    name='username' value="" required maxlength="30">
+                                                <span class="val_name"></span>
                                             </div>
                                         </div>
-                                        <!-- End row -->
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Email</label>
-                                                    <input type="email" class="form-control" placeholder="Enter Email"
-                                                        name='useremail' value="" required>
-                                                    <span class="val_email"></span>
-                                                </div>
-                                            </div>
-    
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Inquiry</label>
-                                                    <select class="form-control" name="inquiry">
-                                                        <option value="General Inquiry">General Inquiry</option>
-                                                        <option value="Sales Inquiry">Sales Inquiry</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label>Message</label>
-                                                    <textarea rows="5" name="usermessage" class="form-control"
-                                                        placeholder="Write your message" style="height:200px;"></textarea>
-                                                </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label>Phone</label>
+                                                <input type="text" class="form-control" placeholder="Enter Phone number"
+                                                    name="userphone" value="" required maxlength="14">
+                                                <span class="val_phone"></span>
                                             </div>
                                         </div>
-                                    </form>
-                                </div>
+                                    </div>
+                                    <!-- End row -->
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label>Email</label>
+                                                <input type="email" class="form-control" placeholder="Enter Email"
+                                                    name='useremail' value="" required>
+                                                <span class="val_email"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label>Inquiry</label>
+                                                <select class="form-control" name="inquiry">
+                                                    <option value="General Inquiry">General Inquiry</option>
+                                                    <option value="Sales Inquiry">Sales Inquiry</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Message</label>
+                                                <textarea rows="5" name="usermessage" class="form-control"
+                                                    placeholder="Write your message" style="height:200px;"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-info" type="button">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="box_style_4">
+                                <i class="fa-solid fa-phone-volume fa-2xl" style="color: #15d3f9;"></i>
+                                <h4>Call</h4>
+                                <a href="" class="phone">+50937855154</a>
+
+                            </div>
+
+                            <div class="box_style_3">
+                                <i class="fa-solid fa-envelope-open" style="color: #15d3f9;"></i>
+                                <h4>Email</h4>
+                                <a href="" class="email">hotelflorita@gmail.com</a>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </form>
+        <!-- Form End -->
 
-            <!-- Form End -->
 
-
-            <!-- Remove the container if you want to extend the Footer to full width. -->
-            <div class="container my-5">
-                <!-- Footer -->
-                <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
-                    <!-- Section: Social media -->
-                    <section class="d-flex justify-content-between p-4" style="background-color: rgb(42, 187, 255)">
-                        <!-- Left -->
-                        <div class="me-5">
-                            <span>Get connected with us on social networks:</span>
-                        </div>
-                        <!-- Left -->
-
-                        <!-- Right -->
-                        <div>
-                            <a href="" class="text-white me-4">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="" class="text-white me-4">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="" class="text-white me-4">
-                                <i class="fab fa-google"></i>
-                            </a>
-                            <a href="" class="text-white me-4">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="" class="text-white me-4">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="" class="text-white me-4">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                        <!-- Right -->
-                    </section>
-                    <!-- Section: Social media -->
-
-                    <!-- Section: Links  -->
-                    <section class="">
-                        <div class="container text-center text-md-start mt-5">
-                            <!-- Grid row -->
-                            <div class="row mt-3">
-                                <!-- Grid column -->
-                                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                                    <!-- Content -->
-                                    <h6 class="text-uppercase fw-bold">Company name</h6>
-                                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                                        style="width: 60px; background-color: #7c4dff; height: 2px" />
-                                    <p>
-                                        Here you can use rows and columns to organize your
-                                        footer
-                                        content. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing
-                                        elit.
-                                    </p>
-                                </div>
-                                <!-- Grid column -->
-                                <!-- PARALAX  -->
-                                <!-- FOOTER CON REDIRECCIONADORES  = LINKS FACEBOOK INSTA ETC  -->
-
-                                <!-- Grid column -->
-                                <div class="col-md-2 asd col-lg-2 col-xl-2 mx-auto mb-4">
-                                    <!-- Links -->
-                                    <h6 class="text-uppercase fw-bold">Products</h6>
-                                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                                        style="width: 60px; background-color: #7c4dff; height: 2px" />
-                                    <p>
-                                        <a href="#!" class="text-white">MDBootstrap</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-white">MDWordPress</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-white">BrandFlow</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-white">Bootstrap Angular</a>
-                                    </p>
-                                </div>
-                                <!-- Grid column -->
-
-                                <!-- Grid column -->
-                                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                                    <!-- Links -->
-                                    <h6 class="text-uppercase fw-bold">Useful links</h6>
-                                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                                        style="width: 60px; background-color: #7c4dff; height: 2px" />
-                                    <p>
-                                        <a href="#!" class="text-white">Your Account</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-white">Become an Affiliate</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-white">Shipping Rates</a>
-                                    </p>
-                                    <p>
-                                        <a href="#!" class="text-white">Help</a>
-                                    </p>
-                                </div>
-                                <!-- Grid column -->
-
-                                <!-- Grid column -->
-                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                                    <!-- Links -->
-                                    <h6 class="text-uppercase fw-bold">Contact</h6>
-                                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                                        style="width: 60px; background-color: #7c4dff; height: 2px" />
-                                    <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US
-                                    </p>
-                                    <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                                    <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                                    <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                                </div>
-                                <!-- Grid column -->
-                            </div>
-                            <!-- Grid row -->
-                        </div>
-                    </section>
-                    <!-- Section: Links  -->
-
-                    <!-- Copyright -->
-                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                        © 2020 Copyright:
-                        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+        <div class="container my-5">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-between p-4" style="background-color: rgb(42, 187, 255)">
+                    <!-- Left -->
+                    <div class="me-5">
+                        <span>Get connected with us on social networks:</span>
                     </div>
-                    <!-- Copyright -->
-                </footer>
-                <!-- Footer -->
-            </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold">Hotel Florita</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p>
+                                    The Hotel Florita is the only original nineteenth century
+                                    building in the Historic District. Built in 1888.
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+                            <!-- PARALAX  -->
+                            <!-- FOOTER CON REDIRECCIONADORES  = LINKS FACEBOOK INSTA ETC  -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 asd col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Products</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p>
+                                    <a href="#!" class="text-white">Rooms</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-white">Restaurant</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-white">Show & bar</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-white">Contact Us</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p>
+                                    <a href="https://www.facebook.com/hotelflorita.haiti.5?mibextid=9R9pXO"
+                                        class="text-white">Facebook</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-white">Instagram</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-white">X</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-white">Web</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Contact</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p><i class="fas fa-home mr-3"></i> Jacmel, Haiti HT9110</p>
+                                <p><i class="fas fa-envelope mr-3"></i> hotelflorita@gmail.com</p>
+                                <p><i class="fas fa-phone mr-3"></i> +509-37855154 </p>
+                                <p><i class="fas fa-print mr-3"></i> +121-32682662</p>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
                 crossorigin="anonymous">
@@ -379,7 +401,7 @@
             </script>
 
 
-    </div>
+        </div>
 </body>
 
 </html>

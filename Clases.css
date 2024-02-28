@@ -334,3 +334,22 @@ margin: 30px;
     #register_form select{
       color: rgba(0, 0, 0, 0.486);
   }
+
+  .box_style_4 i{
+    font-size: 150px;
+    margin-top: 110px;
+    margin-bottom: 90px;
+  }
+  .box_style_3 i{
+    font-size: 150px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .box_style_4 {
+    text-align: center;
+  }
+
+  .box_style_3 {
+    text-align: center;
+  }
