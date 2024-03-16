@@ -227,15 +227,25 @@
 #targetas{
 width: 90%;
 position: relative;
+background-color: rgba(255, 255, 255, 0.651);
 
 }
 
 .card-img-top{
   border-radius: 0%;
+
 }
 
 .slider-nav {
-  
+
+}
+/* IN----------------------------------------------------------------------------DEX  */
+.iconostargeta{
+  background-color: #d1d1d113;
+  padding: 2%;
+  font-size:large;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 2%;
 }
 
 
