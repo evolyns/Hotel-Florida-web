@@ -202,6 +202,14 @@
 }
 
 .card-title {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-weight: 400;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+.card-title2 {
   color: rgb(42, 187, 255);
   font-size: xx-large;
   font-weight: 400;
@@ -215,6 +223,21 @@
   color: #3b3b3b;
   font-size: x-large;
 }
+
+#targetas{
+width: 90%;
+position: relative;
+
+}
+
+.card-img-top{
+  border-radius: 0%;
+}
+
+.slider-nav {
+  
+}
+
 
 /* INDEX  */
 /* el fondo del contenedor del titulo index  */
