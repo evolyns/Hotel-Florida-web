@@ -225,20 +225,37 @@
 }
 
 #targetas{
-width: 90%;
-position: relative;
 background-color: rgba(255, 255, 255, 0.651);
-
+padding: 1%;
+padding-top: 2%;
+margin-left: 10%;
+margin-right: 10%;
 }
 
-.card-img-top{
-  border-radius: 0%;
+.card .imgslider{
+  border-radius: 3%;
 
 }
 
 .slider-nav {
 
 }
+
+
+#colt{
+  position: relative;
+  
+}
+
+@media only screen and (min-width: 1500px) {
+  
+.card .d-grid {
+position: absolute;
+ bottom: 4%; 
+ margin: 1%;
+ right: 0;
+}
+ }
 /* IN----------------------------------------------------------------------------DEX  */
 .iconostargeta{
   background-color: #d1d1d113;
